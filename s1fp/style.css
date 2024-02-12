@@ -18,3 +18,29 @@ html {
 #pho:hover {
     background-image: url("Bugs_Bunny.png");
 }
+
+#drinks{
+    width:100px;
+    height: 100px;
+    background-image: url("drinks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#drinks:hover{
+    background-image: url("Bugs_Bunny.png");
+}
+
+#suprise{
+    width:100px;
+    height: 100px;
+    background-image: url("story.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#suprise:hover{
+    background-image: url("Bugs_Bunny.png");
+}
