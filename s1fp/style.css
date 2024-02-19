@@ -1,5 +1,5 @@
 html {
-    background-color: blue;
+    background-color: white;
 }
 
 #bugs {
@@ -43,4 +43,250 @@ html {
 
 #suprise:hover{
     background-image: url("Bugs_Bunny.png");
+}
+
+#boss{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width: 800px;
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("boss.png");
+
+}
+
+#more{
+    position:absolute;
+    right:50px;
+    bottom:100px;
+    font-size: xx-large;
+    font-family: fantasy;
+    color:green;
+}
+
+#more:hover{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width: 800px;
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("killer.png"); 
+    color:aliceblue
+}
+
+#dizzy{
+    width:100%;
+    height:100%;
+    background-image: url(dizzy.gif);
+    background-size: cover;
+}
+
+#spilled{
+    width:100%;
+    height:100%;
+    background-image: url(spilled.png);
+    background-size: cover;
+}
+
+#thc{
+    position: absolute;
+    left: 20vw;
+    top: 30vh;
+    color:transparent;
+    font-size: x-large;
+    background-color:transparent;
+}
+
+#thc:hover{
+    position: absolute;
+    left: 20vw;
+    top: 30vh;
+    color:aliceblue;
+    font-size: x-large;
+    background-color: black;
+}
+
+#goback{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    color:transparent;
+    font-size: x-large;
+    background-color:transparent;
+}
+
+#goback:hover{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    color:black;
+    font-size: x-large;
+    background-color: beige;
+}
+
+#sodachanh{
+    background-image: url("Sodachanhmoi\ still.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#sodachanh:hover{
+    background-image: url("Soda-chanh-moi.gif");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#coffee{
+    background-image: url("coffeestill.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#coffee:hover{
+    background-image: url("coffee.gif");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#minttea{
+    background-image: url("Mint-Teastill.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#minttea:hover{
+    background-image: url("Mint-Tea.gif");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#soldout{
+    background-image: url("soldout.gif");
+    width: 200px;
+    height: 200px;
+    background-repeat: repeat;
+    background-size: cover;
+    position:absolute;
+    top:10px;
+    left: 220px;
+}
+
+#soldout2{
+    background-image: url("soldout.gif");
+    width: 200px;
+    height: 200px;
+    background-repeat: repeat;
+    background-size: cover;
+    position:absolute;
+    top:410px;
+    left: 220px;
+}
+
+#mainmenu{
+    position: absolute;
+    bottom:100px;
+    right: 50px;
+    color:blue;
+    font-size: x-large;
+    font-family: fantasy; 
+}
+
+#ready{
+    position: absolute;
+    top:300px;
+    left: 50px;
+    color:blue;
+    font-size: x-large;
+    font-family: fantasy; 
+}
+
+#getit{
+    position: absolute;
+    top:600px;
+    right: 200px;
+    color:palevioletred;
+    font-size: x-large;
+    font-family: fantasy; 
+}
+
+#orderagain{
+    position: absolute;
+    bottom:50px;
+    right: 200px;
+    color:palevioletred;
+    font-size: x-large;
+    font-family: fantasy; 
+}
+
+#welcome{
+    position: absolute;
+    top:50%;
+    left: 30%;
+    color:blue;
+    font-size: x-large;
+    font-family: fantasy; 
+}
+
+#pho{
+    background-image: url("pho75still.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#pho:hover{
+    background-image: url("pho75.gif");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#drinks{
+    background-image: url("Drinkstill.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#drinks:hover{
+    background-image: url("Drinks.gif");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#suprise{
+    background-image: url("EEEE！.png");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#suprise:hover{
+    background-image: url("eeee!.gif");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
