@@ -86,8 +86,8 @@ html {
 }
 
 #spilled{
-    width:100%;
-    height:100%;
+    width:1000px;
+    height:1000px;
     background-image: url(spilled.png);
     background-size: cover;
 }
