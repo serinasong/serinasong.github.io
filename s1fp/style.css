@@ -290,3 +290,25 @@ html {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#webring{
+    background-image: url("webring.JPG");
+    height: 150px;
+    width:150px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 18px;
+    left:40px;   
+
+}
+
+#webring:hover{
+    background-image: url("webringblink.JPG");
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    bottom: 0px;
+    left:10px;
+}
+
