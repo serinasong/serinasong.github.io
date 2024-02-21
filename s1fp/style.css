@@ -235,10 +235,10 @@ html {
 }
 
 #welcome{
-    position: absolute;
-    top:50%;
-    left: 30%;
-    color:blue;
+    position: fixed;
+    top:calc(50vh + 20px);
+    left: calc(50vw - 110px);
+    color:palevioletred;
     font-size: x-large;
     font-family: fantasy; 
 }
