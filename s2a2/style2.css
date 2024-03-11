@@ -1,0 +1,254 @@
+html{
+    background-color: black;
+ }
+
+#bomb{
+  width: 5vw;
+  height: 2vh;
+  background-color: deeppink;
+  position: absolute;
+  top: calc(57vh);
+  left: calc(18vw);
+}
+
+#box1{
+    width: 15vw;
+    height: 12vw;
+    background: whitesmoke;
+    position: absolute;
+    top:36vh;
+    left:45vw;
+    border-radius: 100px / 80px;
+}
+
+#box2{
+    width: 25vw;
+    height: 30vw;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 39vh;
+    left:40vw;
+
+}
+
+#leftleg{
+    position: absolute;
+    top: calc(42.3vh + 18vw);
+    left: calc(45vw);
+}
+
+#rightleg{
+    position: absolute;
+    top: calc(42.3vh + 18vw);
+    left: calc(58vw);
+
+}
+
+.ears{
+  width: 4vw;
+  height: 5vw;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background-color: pink;
+}
+
+#leftear{
+    transform: rotate(160deg);
+    position: absolute;
+    top:34.5vh;
+    left:46vw;
+    z-index: -1;
+}
+
+#rightear{
+    transform: rotate(210deg);
+    position: absolute;
+    top:34.5vh;
+    left:56vw;
+    z-index: -1;
+}
+
+.eyes{
+    width: 1vw;
+    height: 1vw;
+    background-color: black;
+    border-radius: 50px / 50px
+}
+
+#lefteye{
+    position: absolute;
+    top:38.5vh;
+    left:50vw;
+}
+
+#righteye{
+    position: absolute;
+    top:38.5vh;
+    left:54vw;
+}
+
+.legs{
+  width:calc(1.2vw + 0.1vh);
+  height:calc(9vw);
+  background-color: antiquewhite;
+  border-radius: 50% 50% 50% 50% / 20% 20% 8% 8%;
+  z-index: -1;
+}
+
+#cheese{
+    width: 18vw;
+    height: 20vw;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background-color:transparent;
+    position: absolute;
+    top: calc(40vh + 7vw);
+    left:43.5vw;  
+}
+
+#cheese:hover{
+ background-image:url("cheese.png");
+ background-color: beige;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: bottom;   
+}
+
+.flipflop{
+    width: 5vw;
+    height: calc(5vh + 16vw);
+    background-color: transparent;
+}
+
+#box3{
+    position: absolute;
+    top: 42vh;
+    left:36vw;
+    z-index: 1;
+}
+
+#box4{
+    position: absolute;
+    top: 42vh;
+    left:64vw;
+    z-index: 1;
+}
+
+
+#box3:hover ~ #box2 {
+    width: 25vw;
+    height: 30vw;
+    border-radius: 50% 40% 15% 60%/ 60% 60% 40% 40%;
+    background-color:whitesmoke;
+    position: absolute;
+    top: 38.5vh;
+    left:44vw;  
+    transform: rotate(-60deg);
+    z-index: 1;
+  } 
+
+#box4:hover ~ #box2 {
+    width: 25vw;
+    height: 30vw;
+    border-radius: 40% 60% 50% 15% / 60% 60% 40% 40%;
+    background-color:whitesmoke;
+    position: absolute;
+    top: 38.5vh;
+    left:36vw;  
+    transform: rotate(60deg);
+    z-index: 1;
+  }  
+
+#box3:hover ~ #leftleg{
+    width:calc(1vw + 0.5vh);
+    height:calc(2vw);
+    background-color: antiquewhite;
+    border-radius: 50% 50% 50% 50%;
+    z-index: -1;
+    position: absolute;
+    top: calc(42vh + 16vw);
+    left: calc(45vw);
+}
+
+#box4:hover ~ #rightleg{
+    width:calc(1vw + 0.5vh);
+    height:calc(2vw);
+    background-color: antiquewhite;
+    border-radius: 50% 50% 50% 50%;
+    z-index: -1;
+    position: absolute;
+    top: calc(42vh + 16vw);
+    left: calc(58vw);
+}
+
+#t1{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 28vh;
+    left: 40vw;
+}
+
+.flipflop:hover ~ #t1{
+    color: transparent;   
+}
+
+#cheese:hover ~ #t1{
+    color: transparent;   
+}
+
+#box3:hover ~ #t2{
+    color: hotpink; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size:larger;
+    position: absolute;
+    top: 28vh;
+    left: 45vw;
+}
+
+#box4:hover ~ #t3{
+    color: hotpink; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size:larger;
+    position: absolute;
+    top: 28vh;
+    left: 45vw;
+}
+
+#cheese:hover ~ #t4{
+    color: orange; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size:medium;
+    position: absolute;
+    top: 28vh;
+    left: 37vw;
+}
+
+#bomb:active{
+    width: 5vw;
+    height: 1vh;
+    background-color: deeppink;
+    position: absolute;
+    top: calc(58vh);
+    left: calc(18vw);
+  }
+
+
+#bomb:active ~ .eyes{
+    width: 1vw;
+    height: 1vw;
+    background-image: url("iridesecent.gif");
+    border-radius: 50px / 50px
+}
+
+#bomb:active ~ #t6{
+    background-image: url("iridesecent.gif"); 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size:medium;
+    position: absolute;
+    top: 28vh;
+    left: 40vw;
+}
+
+#bomb:active ~ #t1{
+    color: transparent;   
+}
