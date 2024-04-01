@@ -21,3 +21,36 @@
  background-color: gray;
 }
 
+#textbox1 {
+  width: 34vw;
+  /* height: 30vw; */
+  overflow: hidden;
+  text-align:left;
+  float: left;
+  padding: 2vw;
+  margin: 4vw 4vw 4vw calc(50vw - 40vw); 
+  font-family: "Roboto", sans-serif;
+  /* text-wrap: wrap;
+  hyphens: auto; */
+}
+
+#textbox2 {
+  float: left;
+  width: 34vw;
+  margin-top: 4vw;
+  padding: 2vw;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
+.floatclear {
+  clear: both;
+}
+
+.flexwrapper{
+  width: 38vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid#000000;
+}
