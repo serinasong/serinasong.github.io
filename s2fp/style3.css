@@ -6,7 +6,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  margin: 0;
+  margin: 0vw 0vw 10vw 0vw;
+  
 }
 
 #title{
@@ -21,10 +22,18 @@ body {
 
 #pic1 {
  width: 80vw;
- height: 30vw;
+ height: 40vw;
  margin-left: calc(50vw - 40vw);
  margin-top: 5vh;
  background-color: gray;
+ border-radius: 1vw;
+}
+
+#originalweb{
+  margin: 0vw 10vw 10vw 10vw;
+  width:77vw;
+  height: 30vw;
+  border-radius: 1vw;
 }
 
 #textbox1 {
@@ -55,7 +64,7 @@ body {
 
 .flexwrapper{
   margin-left: 10vw;
-  margin-bottom: 4vw;
+  margin-bottom: 1vw;
   width: 80vw;
   display: flex;
   flex-wrap: wrap;
@@ -71,6 +80,7 @@ body {
   border: 1px solid#000000;
   background-color: grey;
   width: calc(50% - 14px);
+  border-radius: 1vw;
 }
 
 .flexpicture > p {
@@ -92,8 +102,43 @@ body {
 }
 
 .subtitle {
- margin: 10vw;
+ margin: 5vw 10vw 2vw 10vw;
  font-family: "Roboto", sans-serif;
  font-size:larger;
  font-weight: bolder;
 }
+
+#text3 {
+  width: 50%;
+  margin: 0vw 10vw 5vw 10vw;
+  font-size:medium;
+  font-family:"Roboto", sans-serif;
+}
+
+.leftbubble {
+  width: 40vw;
+  background-color: pink;
+  border-radius: 3vw 3vw 4vw 0vw;
+  margin: 2vw 10vw 3vw 10vw;
+  text-align:center;
+  padding: 4vw;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.rightbubble {
+  width: 50vw;
+  background-color:lightskyblue;
+  border-radius: 3vw 3vw 0vw 3vw;
+  margin-left: 30vw;
+  margin-bottom: 2vw;
+  padding: 4vw;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .message {
+  text-align: center;
+  position: relative;
+  top: 4vw;
+} */
