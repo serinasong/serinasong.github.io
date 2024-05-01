@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+#grid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6, 16.6vw);
+}
+
+.tile {
+    position: abs
+    width: 16vw;
+    height: 16vw;
+    background-color: transparent;
+    margin-right: 10px;
+    /* overflow-y: auto; */
+    border: 1px solid transparent;
+    border-radius: 0%;
+    animation: leftscroll infinite 60s linear;
+}
+
+.sround{
+    margin: 5.5vw;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 3s ease infinite;
+    /* animation: lefttextscroll infinite 60s linear; */
+}
+
+.mround{
+    margin: 3vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 5s ease infinite;
+}
+
+.lround{
+    margin: 0.5vw;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 4s ease infinite;
+}
+
+.blink{
+    animation: blink 1s ease infinite;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+ 
+  @keyframes leftscroll {
+    from{left: 0vw;}
+    to{left: -434.5vw}
+  }
