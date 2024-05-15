@@ -1,3 +1,7 @@
+html{
+  background-color: black;
+}
+
 body{
     margin: 0;
 }
@@ -9,7 +13,6 @@ body{
 }
 
 .tile {
-    position: abs
     width: 16vw;
     height: 16vw;
     background-color: transparent;
@@ -25,7 +28,7 @@ body{
     width: 5vw;
     height: 5vw;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     animation: blink 3s ease infinite;
     /* animation: lefttextscroll infinite 60s linear; */
 }
@@ -35,7 +38,7 @@ body{
     width: 10vw;
     height: 10vw;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     animation: blink 5s ease infinite;
 }
 
@@ -44,7 +47,7 @@ body{
     width: 15vw;
     height: 15vw;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     animation: blink 4s ease infinite;
 }
 
@@ -54,17 +57,67 @@ body{
 
 @keyframes blink {
     0% {
-      opacity: 0.5;
+      opacity: 0.2;
     }
     50% {
       opacity: 1;
     }
     100% {
-      opacity: 0.5;
+      opacity: 0.2;
     }
   }
  
-  @keyframes leftscroll {
-    from{left: 0vw;}
-    to{left: -434.5vw}
-  }
+.title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.title2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.assignment{
+  margin-top: 3vh;
+  margin-left: 1%;
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: aliceblue;
+}
+
+#back{
+  margin-top: 20px;
+  margin-left: 1%;
+  padding: 2px;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: monospace;
+  font-size: larger;
+  font-style: italic black;
+}
+
+.rr{
+  position: absolute;
+  margin-top: 3vh;
+  margin-left: 1%;
+  padding: 2%;
+  width: 95%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: small;
+  background-color: rgb(248, 252, 255);
+  border-radius: 10px;
+}
+
